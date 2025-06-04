@@ -1,0 +1,407 @@
+@media (max-width: 780px) {
+
+  .mylogo img {
+    width: 50px;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+    white-space: normal;
+  }
+
+  .navbar {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .mainPoster {
+    height: 200vh;
+  }
+
+  .mainHeading {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .mergeChild p {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 10px 40px 0;
+    white-space: normal;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btns button {
+    width: 60%;
+    height: 7vh;
+    margin-top: 10px;
+  }
+
+  #btn2 {
+    margin-left: 0;
+  }
+
+  .blurBox {
+    width: 95%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .row1, .row2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 6px;
+    padding-top: 20px;
+    gap: 20px;
+  }
+
+  .Box {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .boundry {
+    width: 6.3rem;
+    height: 55px;
+  }
+
+  .boundry i {
+    font-size: 3.4rem;
+    color: white;
+  }
+
+  .settleItems {
+    padding-left: 5px;
+    white-space: nowrap;
+  }
+
+  .settleItems h1 {
+    margin-top: 4px;
+    font-size: 21px;
+  }
+
+  .settleItems p {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .headlines {
+    width: 100%;
+    height: auto;
+    background: #238858;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+  }
+
+  .one, .dates3 {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .one div, .dates3 div {
+    border: 1px solid white;
+    font-weight: 600;
+  }
+
+  .one button, .dates3 button {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: #ffffff30;
+    color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+
+  .countDown {
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .countDown h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 5vh;
+    color: #222f3d;
+    margin-top: 5%;
+  }
+
+  .countRow {
+    display: flex;
+    gap: 3%;
+    margin-top: 3%;
+  }
+
+  .countRow div {
+    width: 60%;
+    height: 80px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #238858;
+  }
+
+  .borderLine {
+    width: 100%;
+    margin: 5% auto;
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+  .twinImg {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    width: 100%;
+    margin: 5% auto;
+    color: black;
+  }
+
+  .img1 {
+    width: 100%;
+    height: 40rem;
+  }
+
+  .img1 img {
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  .img1 img:nth-child(2) {
+    transform: translate(25%, -10%);
+  }
+
+  .trioBoxes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20% auto;
+    justify-content: space-evenly;
+  }
+
+  .trioBoxes div {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  .trioBoxes div i {
+    font-size: 3rem;
+    width: 25%;
+    height: 6.3rem;
+    border-radius: 50%;
+  }
+
+  .featuredProgram {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .featuredProgram .line {
+    width: 10%;
+    height: 0.1rem;
+    background: #238858;
+  }
+
+  .featuredProgram .featuredname {
+    font-size: 3rem;
+    color: #212A61;
+    font-weight: 700;
+  }
+
+  .captionFeatured {
+    width: 100%;
+    margin: -3% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: 10% auto;
+  }
+
+  .buttons button {
+    margin: 5% auto;
+  }
+
+  .programBoxes .item1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50rem;
+    transition: all 0.3s ease;
+  }
+
+  .programBoxes .item1 .programImage {
+    width: 100%;
+  }
+
+  .programBoxes .item1 .programImage img {
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .programBoxes .item1 .programDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3% auto;
+  }
+
+  .proMentions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+  }
+
+  .proMentions h1 {
+    color: #212A61;
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .proMentions label {
+    margin: -55% auto;
+    width: 50%;
+    height: 4rem;
+    white-space: nowrap;
+  }
+
+  .proMentions .proName {
+    margin: -68.5% auto 0 47%;
+  }
+
+  .programDuration {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2%;
+    line-height: 1.9;
+  }
+
+  .programDuration div {
+    font-size: 1.6rem;
+    white-space: nowrap;
+    color: #697076;
+  }
+.captionFeatured {
+    width: 100%;
+    margin: -3% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+  .proDescript p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .learnmore p {
+    margin: 7% auto;
+  }
+
+  .programBoxes .item1.hide {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transform: scale(0.4);
+    pointer-events: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .programBoxes .item1.show {
+    height: 50rem;
+    margin: 3% auto;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+  .studentCaption p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .stImage {
+    width: 100%;
+    margin: 10% auto;
+    height: 35rem;
+    
+}
+.stImage p {
+    font-size: 2.5rem;
+     color: white;
+     font-weight: 400;
+}
+.stImage button {
+    font-size: 2rem;
+     font-weight: 400;
+}
+.stforBoxes {
+    width: 100%;
+    margin: -3% auto;
+    display: flex;
+    flex-direction: column;
+}
+.upBox, .lowBox {
+    display: flex;
+    flex-direction: column;
+}
+.upBox div, .lowBox div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+    margin: 2.5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 4% 6% 7%;
+    position: relative;
+  overflow: hidden;
+  z-index: 1;
+    transition: all 0.5s ease;
+}
+  .upBox div p, .lowBox div p {
+    text-align: left;
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+.upBox div i, .lowBox div i {
+    height: 5.8rem;
+}
+
+}
