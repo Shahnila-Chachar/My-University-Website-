@@ -1,0 +1,43 @@
+
+
+.contact h2 {
+    margin-bottom: 3rem;
+    color: #238859;
+    font-size: 4rem;
+}
+.heading span {
+  color: #486458;
+}
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-weight: 1.6rem;
+    color: white;
+    background: #29885850;
+    border-radius: 0.8rem;
+    border: 2px solid #298858;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+   padding: 20px;
+    border-radius: 9px;
+  background: #298858;
+}
+
