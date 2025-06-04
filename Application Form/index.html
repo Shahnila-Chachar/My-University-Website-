@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Application Form</title>
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="#" method="Post">
+      <i class="fa-solid fa-paper-plane"></i>
+      
+      <div class="inputGroup">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" id="myName" onkeyup="validateName()">
+        <span id="name_Error"></span>
+      </div>
+      
+      <div class="inputGroup">
+        <label>Father's Name</label>
+        <input type="text" placeholder="Enter your name" id="myName" onkeyup="validateName()">
+        <span id="name_Error"></span>
+      </div>
+      
+      <div class="inputGroup">
+        <label>Phone No.</label>
+        <input type="tel" placeholder="Enter your number" id="myPhone" onkeyup="validatePhone()">
+        <span id="phone_Error"></span>
+      </div>
+      
+      
+      <div class="inputGroup">
+        <label>Email Id</label>
+        <input type="text" placeholder="Enter your email" id="myEmail" onkeyup="validateEmail()">
+        <span id="email_Error"></span>
+      </div>
+      
+      
+      <div class="inputGroup">
+        <label>Password</label>
+        <input type="text" placeholder="Enter your password" id="myPassword" onkeyup="validatePassword()">
+        <span id="password_Error"></span>
+      </div>
+      
+      <div class="inputGroup">
+        <label>Last Degree</label>
+        <input type="text" placeholder="Enter Last Degree">
+        <span id="password_Error"></span>
+      </div>
+      
+      <div class="inputGroup">
+        <label>Last Degree (Starting Date)</label>
+        <input type="date" placeholder="Enter Last Degree">
+      </div>
+      
+      <div class="inputGroup">
+        <label>Last Degree (Ending Date)</label>
+        <input type="date" placeholder="Enter Last Degree">
+      </div>
+      
+      <div class="inputGroup">
+        <label>Degree Program</label>
+        <select>
+          <option selected="" disabled="">Select Program</option>
+          <option>BS Computer Science</option>
+          <option>BBA</option>
+          <option>BS Health Sciences</option>
+          <option>MS Environmental Sciences</option>
+          <option>ME Mechanical Engineering</option>
+          <option>Certificate in Data Sciences</option>
+        </select>
+        <span id="password_Error"></span>
+      </div>
+      
+   <div class="inputGroup">
+        <label>Upload Your Recent Photo</label>
+        <input type="file">
+      </div>
+      
+      <div class="inputGroup">
+        <label>Upload Your CNIC</label>
+        <input type="file">
+      </div>
+      
+      <div class="inputGroup">
+        <label>Upload Your Father's CNIC</label>
+        <input type="file">
+      </div>
+      
+      <div class="inputGroup">
+        <label>Upload Your/Your Father's Domicile</label>
+        <input type="file">
+      </div>
+      
+      <div class="inputGroup">
+        <label>Upload Last Degree</label>
+        <input type="file">
+      </div>
+      
+      
+      <button onclick="return validateForm()">Submit</button>
+      <span id="submit_Error"></span>
+    </form>
+  </div>
+  
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
